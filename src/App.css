@@ -1,0 +1,42 @@
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: auto;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+}
+
+.td-x-hover:hover {
+  background-color: rgb(101, 175, 240);
+}
+
+.td-o-hover:hover {
+  background-color: rgb(243, 158, 147);
+}
+
+.td-x {
+  background-color: rgb(101, 175, 240);
+}
+
+.td-o {
+  background-color: rgb(243, 158, 147);
+}
+
+tr {
+  width: 60px;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: monospace;
+}
